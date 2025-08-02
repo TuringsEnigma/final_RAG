@@ -1,0 +1,1 @@
+fastapi uvicorn pydantic requests pymupdf python-docx numpy scikit-learn rank-bm25 nltk groq openai python-dotenv
