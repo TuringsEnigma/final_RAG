@@ -71,9 +71,9 @@ class Config:
     FALLBACK_MODEL = "gpt-3.5-turbo"  # OpenAI fallback
     
     # Groq can handle much more - your limits were way too low!
-    MAX_TOTAL_TOKENS = 1050       # Use 90% of Groq's 8192 limit
-    MAX_CONTEXT_TOKENS = 700         # Plenty of context for insurance docs
-    MAX_RESPONSE_TOKENS = 350        # Detailed answers need space
+    MAX_TOTAL_TOKENS = 1100       # Use 90% of Groq's 8192 limit
+    MAX_CONTEXT_TOKENS = 775       # Plenty of context for insurance docs
+    MAX_RESPONSE_TOKENS = 325       # Detailed answers need space
     SYSTEM_PROMPT_TOKENS = 0      # Was 200 - too small!
     
     # Better processing parameters
@@ -1473,4 +1473,5 @@ if __name__ == "__main__":
         reload=False
 
     )
+
 
